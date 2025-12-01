@@ -3,7 +3,7 @@ def start_system():
     if not auth_token:
         st.error("❌ Ngrok Token missing in Secrets!")
         st.stop()
-    ngrok.set_auth_token(auth_token)
+    ngrok.set_auth_token( 36FH7yR0d5FtO35anWhVYARgq1f_5izVdE4zVUaS8zaXxbd7T)
 
     # LOWERED RAM TO 256MB for Maximum Stability
     qemu_cmd = [
