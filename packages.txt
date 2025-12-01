@@ -1,5 +1,4 @@
 qemu-system-x86
 wget
 unzip
-net-tools
 procps
